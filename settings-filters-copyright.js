@@ -6,7 +6,7 @@ document.head.appendChild(my_awesome_script2);
 
 var my_awesome_script = document.createElement('script');
 
-my_awesome_script.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js');
+my_awesome_script.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js');
 
 document.head.appendChild(my_awesome_script);
 
@@ -83,4 +83,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./fsLibrary":"sBLj"}],"QCba":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),require("./addClasses"),require("./filter/filter"),require("./combine"),require("./lazyLoad"),require("./nest"),require("./sort"),require("./loadmore/index"),require("./tabs"),require("./anchor"),require("./slider");
 },{"./addClasses":"hvMH","./filter/filter":"yiSV","./combine":"GoRK","./lazyLoad":"WJk6","./nest":"JjVL","./sort":"jeDv","./loadmore/index":"EEF9","./tabs":"sWF4","./anchor":"Pvz1","./slider":"QLcG"}]},{},["QCba"], "fsLibrary")
-document.addEventListener("DOMContentLoaded",function(){$(window).width()>767&&$(".c-events_list").slick({dots:!1,speed:500,infinite:!1,slidesToShow:3,slidesToScroll:1,arrows:!1,touchThreshold:100}),$(window).width()>767&&$(".c-staff_list").slick({dots:!1,speed:500,infinite:!1,slidesToShow:4,slidesToScroll:1,arrows:!1,touchThreshold:100}),(new Date).getFullYear(),"undefined"==typeof churchName?($("div:visible").last().prev().parent().prepend('<p>Ãƒâ€šÃ‚Â© <span id="year"></span>. All Rights Reserved.</p>'),document.getElementById("year").innerHTML=(new Date).getFullYear()):($("div:visible").last().prev().parent().prepend('<p>&copy; <span id="year"></span> '+churchName+'. All Rights Reserved.</p>'),document.getElementById("year").innerHTML=(new Date).getFullYear())});
+document.addEventListener("DOMContentLoaded",function(){$(window).width()>767&&$(".c-events_list").slick({dots:!1,speed:500,infinite:!1,slidesToShow:3,slidesToScroll:1,arrows:!1,touchThreshold:100}),$(window).width()>767&&$(".c-staff_list").slick({dots:!1,speed:500,infinite:!1,slidesToShow:4,slidesToScroll:1,arrows:!1,touchThreshold:100})});
